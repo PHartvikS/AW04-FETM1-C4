@@ -1,0 +1,83 @@
+#para1 {
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+#para2 {
+    border-style: dashed solid;
+    border-width: 3px 7px;
+    border-color: brown blue;
+}
+
+#para3 {
+    border: 1cm double yellow;
+}
+
+#para4 {
+    border-style: double dashed;
+    border-width: thick;
+}
+
+p {
+    padding: 50px 50px;
+    width: 100px;
+    height: 50px;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+#img3 {
+    float: none;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+p {
+    width: 400px;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+#img3 {
+    float: none;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+div {
+    width: 400px;
+}
+
+.text {
+    clear: both;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height, transform;
+    transition-duration: 2s, 2s, 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+
+div:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
